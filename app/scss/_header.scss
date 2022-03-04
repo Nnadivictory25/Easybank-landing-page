@@ -1,7 +1,43 @@
 .header {
 
+    // Hamburger open styles
+
+     &.open {
+
+        .overlay {
+            display: block;
+        }
+
+        .header__toggle {
+                
+                > span:first-child {
+                    transform: rotate(45deg);
+                }
+        
+                > span:nth-child(2) {
+                    opacity: 0;
+                }
+        
+                > span:last-child {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-image: linear-gradient($darkBlue, transparent);
+    }
+
     nav {
-        padding: 1.0625rem 1.5rem;
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
+        position: relative;
+        background-color: $white;
     }
     
     &__logo {
@@ -12,16 +48,36 @@
         }
     }
 
-    &__menu { //mobile view
+    &__toggle { //mobile toggle
         > span {
             display: block;
             width: 26px;
             height: 2px;
             background-color: $darkBlue;
+            transform-origin: 3px 1px;
+            transition: all .3s ease-in-out;
 
             &:not(:last-child) {
-                margin-bottom: 3px;
+                margin-bottom: 5px;
             }
+        }
+
+    }
+
+    &__menu {
+        background: $white;
+        padding: 1.625rem;
+        margin: 1.5rem;
+        border-radius: 5px;
+        position: absolute;
+        width: calc(100% - 3rem);
+        transform: translateX(-50%, 50%);
+
+        a {
+            color: $darkBlue;
+            padding: .625rem;
+            display: block;
+            text-align: center;
         }
     }
 

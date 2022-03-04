@@ -5,7 +5,6 @@ html {
 
 * {
     box-sizing: inherit;
-    outline: 1px solid red;
 }
 
 body {
@@ -16,11 +15,21 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-weight: 300;
     color: $grayishBlue;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 a, a:visited, a:hover {
     text-decoration: none;
 }
+
+// spacing {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
 // flexbox
 
@@ -58,7 +67,7 @@ a, a:visited, a:hover {
     }
 }
 
-//  Visisbillity
+//  Visibillity
 
 .hide-for-mobile {
     // hide for tablet and mobile 
