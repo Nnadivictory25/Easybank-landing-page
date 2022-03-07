@@ -7,9 +7,41 @@ html {
     box-sizing: inherit;
 }
 
+// text
 h1,h2,h3,h4 {
     margin-top: 0;
+    font-weight: 300;
+    line-height: 1.2;
+    color: $darkBlue;
 }
+
+p {
+    line-height: 1.5;
+}
+
+h2 {
+    @include breakpoint-down(medium) {
+        font-size: 1.875rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    font-size: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.31rem;
+    line-height: 1.2;
+    color: $darkBlue;
+    margin-bottom: 1.5rem;
+
+    @include breakpoint-up(large){
+        font-size: $font-xlg;
+    }
+}
+
+
 
 body {
     margin: 0;
@@ -39,28 +71,46 @@ a, a:visited, a:hover {
         margin: 0 auto;
 
      &--pall {
-            padding-top: 2.25rem;
-            padding-bottom: 2.25rem;
+            padding-top: 4.375rem;
+            padding-bottom: 4.375rem;
 
             padding-right: 1.5rem;
             padding-left: 1.5rem;
+
+            @include breakpoint-up(large){
+                padding-top: 6rem;
+                padding-bottom: 6rem;
+            }
         }
         &--py {
-            padding-top: 2.25rem;
-            padding-bottom: 2.25rem;
+            padding-top: 4.375rem;
+            padding-bottom: 4.375rem;
+
+            @include breakpoint-up(large){
+                padding-top: 6rem;
+                padding-bottom: 6rem;
+            }
         }
         &--px {
             padding-right: 1.5rem;
             padding-left: 1.5rem;
         }
         &--pt {
-            padding-top: 2.25rem;
+            padding-top: 4.375rem;
+
+            @include breakpoint-up(large){
+                padding-top: 6rem;
+            }
         }
         &--pr {
             padding-right: 1.5rem;
         }
         &--pb {
-            padding-bottom: 2.25rem;
+            padding-bottom: 4.375rem;
+
+            @include breakpoint-up(large){
+            padding-bottom: 6rem;
+            }
         }
         &--pl {
             padding-left: 1.5rem;
