@@ -257,6 +257,7 @@ a, a:visited, a:hover {
 }
 
 .header__menu {
+  z-index: 99;
   background: white;
   padding: 1.625rem;
   margin: 1.5rem;
