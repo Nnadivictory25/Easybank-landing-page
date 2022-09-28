@@ -14,4 +14,5 @@ With the help from Coder-Coder on youtube, I was able to complete this frontend 
 
 # Live link
 
-https://easybank-victoryproject.netlify.app/
+easybank-landing-page-vick.vercel.app
+
