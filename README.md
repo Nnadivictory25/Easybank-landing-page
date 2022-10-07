@@ -1,4 +1,4 @@
-# Frontend-mentor-project-1
+# easybank-landing-page frontend mentor project
 
 With the help from Coder-Coder on youtube, I was able to complete this frontend mentor project challenge using SCSS ... my first time exploring SCSS and I loved it
 
