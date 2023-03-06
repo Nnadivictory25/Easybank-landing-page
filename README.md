@@ -5,7 +5,7 @@ With the help from Coder-Coder on youtube, I was able to complete this frontend 
 # Lessons Learnt
 
 1 During this project I was able to get more understanding on CSS grid and flexbox and yea the great SCSS and SASS . <br>
-2 I was able to analyze and study the design and also made a mobile-first coding with the best practices
+2 I was able to analyze and study the design and also made a mobile-first coding with the best practices.
 
 # Preview 
 
