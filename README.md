@@ -1,6 +1,6 @@
 # easybank-landing-page frontend mentor project
 
-With the help from Coder-Coder on youtube, I was able to complete this frontend mentor project challenge using SCSS ... my first time exploring SCSS and I loved it
+With the help from Coder-Coder on youtube, I was able to complete this frontend mentor project challenge using SCSS ... my first time exploring SCSS and I loved it very much
 
 # Lessons Learnt
 
@@ -15,4 +15,3 @@ With the help from Coder-Coder on youtube, I was able to complete this frontend 
 # Live link
 
 easybank-landing-page-vick.vercel.app
-
